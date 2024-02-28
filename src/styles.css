@@ -1,0 +1,73 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #news {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+}
+body{
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.btnAnim {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.btnAnim:hover {
+  transform: translateY(-2px);
+
+  transition: ease-in-out 300ms;
+
+}
+
+
+.text-with-shadow {
+  text-shadow: 2px 2px 4px rgba(49, 49, 49, 0.5); /* Customize the shadow values as needed */
+}
+
+.lobster {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+}
+
+.montserrat-subrayada {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#dropdownBox {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  
+  
+}
+.dropdownBoxGlass{
+  
+  background: rgba(0, 0, 0, 0.651);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
